@@ -1,5 +1,6 @@
 import { Carousel } from "flowbite-react";
 import React from 'react';
+import CarouselItem from "../carousel/CarouselItem";
 
 class Certifications extends React.Component {
     render() {
@@ -14,16 +15,15 @@ class Certifications extends React.Component {
         const images = getImages(7);
 
         return (
-            <Carousel className='flex-col sm:h-25 xl:h-30 pl-10 pr-10'>
-                {images.map((img, index) => (
-                    <div className="flex justify-center items-center" key={index}>
-                        <img
-                            className="d-block w-auto h-auto"
-                            src={img.original}
-                        />
-                    </div>
-                ))}
-            </Carousel>
+            <div className="carousel-container pl-5 pr-5">
+                <div className="carousel-track">
+                    {images.map((image, index) => {
+                    return (
+                        <CarouselItem img={image.original} key={index}></CarouselItem>
+                    );
+                    })}
+                </div>
+            </div>
         );
     }
 }
