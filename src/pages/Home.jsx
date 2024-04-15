@@ -1,8 +1,6 @@
 import MainContent from "../components/cards/MainContent";
 import Title from "../components/cards/Title";
 import Certifications from "../components/exibitions/Certifications";
-import Technologies from "../components/exibitions/Technologies";
-import SimpleParagraph from "../components/misc/SimpleParagraph";
 
 export default function Home() {
 	return (

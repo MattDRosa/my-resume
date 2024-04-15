@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function CarouselItem({ img }) {
+export default function ImageItem({ img }) {
     return (
       <div className="carousel-card">
         <img src={img}></img>
