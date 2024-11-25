@@ -1,0 +1,19 @@
+:root {
+  --tw-bg-opacity: 1;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  padding-top: 2.5rem;
+  margin-bottom: auto;
+  margin: auto;
+  color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
