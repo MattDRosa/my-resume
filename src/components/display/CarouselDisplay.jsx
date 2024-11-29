@@ -6,7 +6,7 @@ export default function CarouselDisplay ( { title, assetsFolder, amount } ) {
     const getImages = (n) => {
         const images = [];
         for (let i = 1; i <= n; i++) {
-            images.push({ original: `src/assets/${assetsFolder}/${i}.png` });
+            images.push({ original: `assets/${assetsFolder}/${i}.png` });
         }
         return images;
     };
