@@ -1,4 +1,4 @@
-import Title from "../cards/Title";
+import Title from "../contents/Title";
 import Carousel from "../carousel/Carousel";
 
 export default function CarouselDisplay ( { title, assetsFolder, amount } ) {
@@ -15,7 +15,7 @@ export default function CarouselDisplay ( { title, assetsFolder, amount } ) {
 
     return (
         <>
-            <Title title={title}></Title>
+            <Title>{title}</Title>
             <Carousel images={images}/>
         </>
     )

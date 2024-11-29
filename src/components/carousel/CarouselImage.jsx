@@ -1,4 +1,4 @@
-const CarouselImage = ({ img }) => {
+export default function CarouselImage ( { img } ) {
     return (
         <div className="slide">
             <img 
@@ -8,6 +8,4 @@ const CarouselImage = ({ img }) => {
             />
         </div>
     );
-};
-
-export default CarouselImage;
+}

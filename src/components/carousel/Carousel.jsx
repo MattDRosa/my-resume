@@ -1,8 +1,8 @@
 import { useEffect, useRef } from 'react';
 import CarouselImage from "./CarouselImage";
-import "./carousel.scss";
+import "../../style/carousel.scss";
 
-export default function Carousel({images}) {
+export default function Carousel( { images } ) {
     const scrollerRef = useRef(null);
 
     useEffect(() => {

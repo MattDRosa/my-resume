@@ -1,12 +1,13 @@
 :root {
   --tw-bg-opacity: 1;
-  background-color: black;
+  background-image: linear-gradient(to bottom right, orange 5%, black 110%);
   height: 100%;
   width: 100%;
-  padding-top: 2.5rem;
+  padding-top: 1.5rem;
   margin-bottom: auto;
   margin: auto;
-  color: rgb(255 255 255 / var(--tw-bg-opacity));
+  color: black;
+  overflow-y: hidden;
 }
 
 body {
